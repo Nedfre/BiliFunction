@@ -31,7 +31,7 @@
                     '</div>')
                     
     setTimeout(function() {
-        $('.card .main-content').append('<div style="margin: 10px 0 0 0;display: flex;justify-content: flex-start;align-items: center;">'+
+        $('.detail-card .card .main-content').append('<div style="margin: 10px 0 0 0;display: flex;justify-content: flex-start;align-items: center;">'+
                                             '<div style="height: 30px;display: flex;justify-content: flex-start;align-items: center;margin: 0 10px 0 0;">'+
                                                 '抽取'+
                                                 '<input style="width: 30px;height: 100%;margin: 0 3px;padding: 0 5px;border-radius: 3px;border: 1px solid #999;" class="will-num" type="text" value="1" />'+
